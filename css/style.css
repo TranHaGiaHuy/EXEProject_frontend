@@ -1281,7 +1281,7 @@ padding-left: 152px;
     white-space: nowrap;
     overflow: hidden;
 }
-.bg-resto .resto-img .resto-name h4 a:hover{;
+.bg-resto .resto-img .resto-name h4 a:hover{
 	color:#ffa803;
 }
 .bg-resto .resto-img .resto-name p{
@@ -3828,7 +3828,7 @@ padding-left: 152px;
 .tabs-left > .nav-tabs .active > a:hover,
 .tabs-left > .nav-tabs .active > a:focus {
 	border-color:none;
-	*border-right-color: none;
+
 }
 .menu-img-view {
 	width:100%;
