@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+	<!-- Favicon -->
+	<link href="images/fav.png" rel="shortcut icon" type="image/x-icon"/>
+
+    <title>Natto | Upload Video </title>
+
+    <!-- Bootstrap core CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/mega.menu.css" rel="stylesheet">
+    
+	<!-- Owl Carousel for this template-->
+	<link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+
+    <!-- Fontawesome styles for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body oncontextmenu="return false;">
+	<!--header start-->
+	<div id="header-container"></div>
+	<!--header end-->	
+	<!--title-bar start-->
+	<section class="title-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="left-title-text">
+					<h3>Upload Video</h3>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="right-title-text">  
+						<ul>
+							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Upload Video</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--title-bar end-->	
+	<!--upload-recipe start-->
+	<section class="upload-recipe-video">			
+		<div class="container">		
+			<div class="row">	
+				<div class="col-lg-12 col-md-12">
+					<div class="new-heading">
+						<h1> Upload Video </h1>
+					</div>						
+				</div>
+			</div>
+			<form>
+				<div class="row justify-content-center">	
+					<div class="col-lg-6 col-md-8 col-sm-10">
+						<div class="form-container">
+							<div class="form-group">
+								<label for="videoTitle">Title</label>
+								<input type="text" class="video-form" id="videoTitle" placeholder="Enter title here">							
+							</div>
+							<div class="form-group">
+								<label for="videoDescription">Description</label>
+								<textarea class="text-area" id="videoDescription"  placeholder="Description"></textarea>							
+							</div>
+							<div class="form-group">
+								<label for="videoTags">Title</label>
+								<input type="search" class="video-form" id="videoTags" placeholder="Tags (e.g. Food, Burgur, Noodles)">							
+							</div>	
+							<div class="form-group">
+								<label for="file1">Upload Video File</label>
+								<div class="image-upload-wrap">
+									<input class="file-upload-input" id="file1" type='file' onchange="readURL(this);" accept="image/*" />
+									<div class="drag-text">
+									  <i class="fas fa-cloud-upload-alt"></i>
+									  <h4>Select files to upload</h4>
+									  <p>or drag and drop video files</p>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="file">Video Thumbnail</label>
+								<div class="box">
+									<input type="file" id="file">
+									<label for="file">Custom Thumbnail</label>
+									<span>No choose file</span>
+									<p>(Maximum file size is 1 mb)</p>
+								</div>
+							</div>	
+							<div class="sends">
+								<input type="submit" value="Upload Now" class=" btn-link">
+							</div>
+						</div>						
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>			
+	<!--upload-recipe end-->	
+	<!--over-15000-restaurants start-->
+	<section class="over-restaurants">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="restaurants-links">
+						<h1>Choose From Over 15,000 Restaurants</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus urna nec justo suscipit,<br>id congue justo dictum.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="view-restaurants">
+						<a href="partners.html" class="m-btn r-btn-link">View Restaurants</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--over-15000-restaurants end-->
+	<!--footer start-->
+	<div id="footer-container"></div>
+	<!--footer end-->
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	<!-- Assect scripts for this page-->
+	<script src="assets/owlcarousel/owl.carousel.js"></script>
+	<script src="js/owlslider.js"></script>
+	<script>
+        // Hàm để tải nội dung từ file HTML vào trang
+        function loadHTML(selector, url) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector(selector).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading HTML:', error));
+        }
+
+        // Gọi hàm để nạp header và footer
+        loadHTML('#header-container', 'header.html');
+        loadHTML('#footer-container', 'footer.html');
+    </script>
+	
+  </body>
+</html>

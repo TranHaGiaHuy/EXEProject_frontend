@@ -37,28 +37,28 @@
 	<!--header end-->
 	<!--banner start-->
 		<section class="block-preview">
-			<div class="cover-banner" style="background-image: url(images/homepage/banner.jpg)"></div>
-			<div class="container">
-				<div class="row">	
-					<div class="col-lg-8 col-md-6 col-sm-12">
+			<div class="cover-banner d-flex justify-content-end" style="background-image: url(images/event_newyear.jpg)"></div>
+			<div class="container bg-dark">
+				<div class="row d-flex justify-content-end">	
+					<!-- <div class="col-lg-8 col-md-6 col-sm-12">
 						<div class="left-text-b">
 							<h1 class="title">Khám phá & Tận hưởng</h1>
 							<h6 class="exeption">Tìm kiếm các món ăn ngon đang ở quanh bạn!</h6>
 							<p>Sử dụng dịch vụ của chúng tôi, phục vụ 24/7</p>
 							<a class="bnr-btn btn-link" href="#">Tìm quán</a>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					</div> -->
+					<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 						<form>
 							<div class="form-box">
 								<div class="input-group-prepend">
 								  <div class="input-group-text"><i class="fas fa-map-marker-alt"></i></div>
 								</div>
-								<input  class="find-address skills" name="search" type="text" placeholder="Nhập địa điểm của bạn..."/>
+								<input  class="find-address skills" name="search" type="text" placeholder="Khu vực của bạn..."/>
 								<div class="input-group-prepend">
 								  <div class="input-group-text-1"><i class="fas fa-utensils"></i></div>
 								</div>
-								<input  class="find-resto skills" name="search" type="text" placeholder="Loại quán ăn muốn tìm..."/>
+								<input  class="find-resto skills" name="search" type="text" placeholder="Loại quán..."/>
 								<button class="search-btn btn-link" type="button">Tìm kiếm</button>
 							</div>
 						</form>
@@ -95,36 +95,36 @@
 						</div>
 						<div class="item">
 							<div class="places">
-								<a href="places_cafes.html">
+								<a href="meals.html">
 									<div class="b-icon">
-										<img src="images/homepage/browse_places/02.svg" alt="">
+										<img src="images/homepage/browse_places/dattruoc.png" alt="">
 									</div>
 									<div class="b-text">
-										Cafe & quán nước
+										Đặt trước
 									</div>
 								</a>
 							</div>
 						</div>
 						<div class="item">
 							<div class="places">
-								<a href="places_cafes.html">
+								<a href="recipes.html">
 									<div class="b-icon">
-										<img src="images/homepage/browse_places/03.svg" alt="">
+										<img src="images/homepage/browse_places/bake.png" alt="">
 									</div>
 									<div class="b-text">
-										Quán xuyên đêm
+										Nấu ăn
 									</div>
 								</a>
 							</div>
 						</div>
 						<div class="item">
 							<div class="places">
-								<a href="places_cafes.html">
+								<a href="our_blog.html">
 									<div class="b-icon">
-										<img src="images/homepage/browse_places/04.svg" alt="">
+										<img src="images/homepage/browse_places/blogging.png" alt="">
 									</div>
 									<div class="b-text">
-										Tiệc
+										Blogs
 									</div>
 								</a>
 							</div>
@@ -143,9 +143,9 @@
 						</div>
 						<div class="item">
 							<div class="places">
-								<a href="places_cafes.html">
+								<a href="places_nearby.html">
 									<div class="b-icon">
-									<img src="images/homepage/browse_places/06.svg" alt="">
+									<img src="images/homepage/browse_places/new-arrivals.png" alt="">
 									</div>
 									<div class="b-text">
 									Mới khai trương
@@ -237,20 +237,20 @@
 								<img src="images/homepage/meals/img-1.jpg" alt="">
 							</div>
 							<div class="logo-img">
-								<img src="images/homepage/meals/logo-1.jpg" alt="">
+								<img class="meals_logo" src="images/homepage/meals/img-1.jpg" alt="">
 							</div>
 							<div class="top-text">
-								<div class="heading"><h4><a href="meal_detail.html">Hello</a></h4></div>
+								<div class="heading"><h4><a href="meal_detail.html">Cafe Mây</a></h4></div>
 								<div class="sub-heading">
-								<h5><a href="restaurant_detail.html">Rooster</a></h5>
-								<p>$5.00</p>
+									<h5><a href="restaurant_detail.html">Café</a></h5>
+									<p>Ninh Kiều</p> <!-- Giá 5.00 USD đổi sang VND -->
 								</div>
 							</div>
 						</div>
 						<div class="bottom">
 							<div class="bottom-text">
-								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
-								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Giá: đ18.000 - đ35.000</div>
+								<div class="time"><i class="far fa-clock"></i> Mở cửa: 7h - 18h</div>
 								<div class="star">
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
@@ -264,98 +264,101 @@
 						</div>
 					</div>					
 				</div>
+				
 				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 					<div class="all-meal">
 						<div class="top">
 							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
 							<div class="top-img">
+								<img src="images/homepage/meals/img-2.jpg" alt="Bánh dân gian">
+							</div>
+							<div class="logo-img">
 								<img src="images/homepage/meals/img-2.jpg" alt="">
 							</div>
-							<div class="logo-img">
-								<img src="images/homepage/meals/logo-2.jpg" alt="">
-							</div>
 							<div class="top-text">
-								<div class="heading"><h4><a href="meal_detail.html">Two Burgurs</a></h4></div>
+								<div class="heading"><h4><a href="meal_detail.html">Bánh Dân Gian</a></h4></div>
 								<div class="sub-heading">
-								<h5><a href="restaurant_detail.html">Chef House</a></h5>
-								<p>$5.00</p>
+									<h5><a href="restaurant_detail.html">Quán ăn</a></h5>
+									<p>Ninh Kiều</p>
 								</div>
 							</div>
 						</div>
 						<div class="bottom">
 							<div class="bottom-text">
-								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
-								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Giá: đ10.000 - đ30.000</div>
+								<div class="time"><i class="far fa-clock"></i> Mở cửa: 8h - 20h</div>
 								<div class="star">
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>								
-									<span>4.5</span> 
-									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+									<span>4.2</span> 
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>10</a></div>
 								</div>								
 							</div>
 						</div>
 					</div>					
 				</div>
+				
 				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 					<div class="all-meal">
 						<div class="top">
 							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
 							<div class="top-img">
+								<img src="images/homepage/meals/img-3.jpg" alt="Cháo vịt nấu chao">
+							</div>
+							<div class="logo-img">
 								<img src="images/homepage/meals/img-3.jpg" alt="">
 							</div>
-							<div class="logo-img">
-								<img src="images/homepage/meals/logo-3.jpg" alt="">
-							</div>
 							<div class="top-text">
-								<div class="heading"><h4><a href="meal_detail.html">Large Cheese Pizza...</a></h4></div>
+								<div class="heading"><h4><a href="meal_detail.html">Cháo Vịt Nấu Chao</a></h4></div>
 								<div class="sub-heading">
-								<h5><a href="restaurant_detail.html">Limon Resto</a></h5>
-								<p>$12.00</p>
+									<h5><a href="restaurant_detail.html">Quán ăn</a></h5>
+									<p>Ninh Kiều</p>
 								</div>
 							</div>
 						</div>
 						<div class="bottom">
 							<div class="bottom-text">
-								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
-								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Giá: đ20.000 - đ50.000</div>
+								<div class="time"><i class="far fa-clock"></i> Mở cửa: 6h - 22h</div>
 								<div class="star">
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>								
-									<span>4.5</span> 
-									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+									<span>4.8</span> 
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>15</a></div>
 								</div>								
 							</div>
 						</div>
 					</div>					
 				</div>
+				
 				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 					<div class="all-meal">
 						<div class="top">
 							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
 							<div class="top-img">
+								<img src="images/homepage/meals/img-4.jpg" alt="Quán nhậu">
+							</div>
+							<div class="logo-img">
 								<img src="images/homepage/meals/img-4.jpg" alt="">
 							</div>
-							<div class="logo-img">
-								<img src="images/homepage/meals/logo-4.jpg" alt="">
-							</div>
 							<div class="top-text">
-								<div class="heading"><h4><a href="meal_detail.html">Hakka Noodles</a></h4></div>
+								<div class="heading"><h4><a href="meal_detail.html">Quán Nhậu</a></h4></div>
 								<div class="sub-heading">
-								<h5><a href="restaurant_detail.html">Ledbery</a></h5>
-								<p>$5.00</p>
+									<h5><a href="restaurant_detail.html">Quán nhậu</a></h5>
+									<p>Ninh Kiều</p>
 								</div>
 							</div>
 						</div>
 						<div class="bottom">
 							<div class="bottom-text">
-								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
-								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Giá: đ30.000 - đ100.000</div>
+								<div class="time"><i class="far fa-clock"></i> Mở cửa: 17h - 1h</div>
 								<div class="star">
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
@@ -363,152 +366,157 @@
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>								
 									<span>4.5</span> 
-									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>8</a></div>
 								</div>								
 							</div>
 						</div>
 					</div>					
 				</div>
+				
 				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 					<div class="all-meal">
 						<div class="top">
 							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
 							<div class="top-img">
+								<img src="images/homepage/meals/img-5.jpg" alt="Bánh kem">
+							</div>
+							<div class="logo-img">
 								<img src="images/homepage/meals/img-5.jpg" alt="">
 							</div>
-							<div class="logo-img">
-								<img src="images/homepage/meals/logo-5.jpg" alt="">
-							</div>
 							<div class="top-text">
-								<div class="heading"><h4><a href="meal_detail.html">Cappuccino Coffee</a></h4></div>
+								<div class="heading"><h4><a href="meal_detail.html">Bánh Kem</a></h4></div>
 								<div class="sub-heading">
-								<h5><a href="restaurant_detail.html">Organice cafe</a></h5>
-								<p>$5.00</p>
+									<h5><a href="restaurant_detail.html">Quán bánh</a></h5>
+									<p>Ninh Kiều</p>
 								</div>
 							</div>
 						</div>
 						<div class="bottom">
 							<div class="bottom-text">
-								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
-								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Giá: đ25.000 - đ70.000</div>
+								<div class="time"><i class="far fa-clock"></i> Mở cửa: 8h - 21h</div>
 								<div class="star">
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>								
-									<span>4.5</span> 
-									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+									<span>4.7</span> 
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>12</a></div>
 								</div>								
 							</div>
 						</div>
 					</div>					
 				</div>
+				
 				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 					<div class="all-meal">
 						<div class="top">
 							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
 							<div class="top-img">
+								<img src="images/homepage/meals/img-6.jpg" alt="Quán ăn nhanh">
+							</div>
+							<div class="logo-img">
 								<img src="images/homepage/meals/img-6.jpg" alt="">
 							</div>
-							<div class="logo-img">
-								<img src="images/homepage/meals/logo-6.jpg" alt="">
-							</div>
 							<div class="top-text">
-								<div class="heading"><h4><a href="meal_detail.html">Choclate Cake</a></h4></div>
+								<div class="heading"><h4><a href="meal_detail.html">Quán Ăn Nhanh</a></h4></div>
 								<div class="sub-heading">
-								<h5><a href="restaurant_detail.html">Chef House</a></h5>
-								<p>$8.00</p>
+									<h5><a href="restaurant_detail.html">Quán ăn</a></h5>
+									<p>Ninh Kiều</p>
 								</div>
 							</div>
 						</div>
 						<div class="bottom">
 							<div class="bottom-text">
-								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
-								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Giá: đ15.000 - đ45.000</div>
+								<div class="time"><i class="far fa-clock"></i> Mở cửa: 9h - 22h</div>
 								<div class="star">
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>								
-									<span>4.5</span> 
-									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+									<span>4.3</span> 
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>9</a></div>
 								</div>								
 							</div>
 						</div>
 					</div>					
 				</div>
+				
 				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 					<div class="all-meal">
 						<div class="top">
 							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
 							<div class="top-img">
+								<img src="images/homepage/meals/img-7.jpg" alt="Café xuyên đêm">
+							</div>
+							<div class="logo-img">
 								<img src="images/homepage/meals/img-7.jpg" alt="">
 							</div>
-							<div class="logo-img">
-								<img src="images/homepage/meals/logo-7.jpg" alt="">
-							</div>
 							<div class="top-text">
-								<div class="heading"><h4><a href="meal_detail.html"> Indian Dosa </a></h4></div>
+								<div class="heading"><h4><a href="meal_detail.html">Café Xuyên Đêm</a></h4></div>
 								<div class="sub-heading">
-								<h5><a href="restaurant_detail.html">Indian Resto</a></h5>
-								<p>$10.00</p>
+									<h5><a href="restaurant_detail.html">Café</a></h5>
+									<p>Ninh Kiều</p>
 								</div>
 							</div>
 						</div>
 						<div class="bottom">
 							<div class="bottom-text">
-								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
-								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Giá: đ10.000 - đ30.000</div>
+								<div class="time"><i class="far fa-clock"></i> Mở cửa: 24/24</div>
 								<div class="star">
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>								
-									<span>4.5</span> 
-									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+									<span>4.6</span> 
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>20</a></div>
 								</div>								
 							</div>
 						</div>
 					</div>					
 				</div>
+				
 				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 					<div class="all-meal">
 						<div class="top">
 							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
 							<div class="top-img">
-								<img src="images/homepage/meals/img-8.jpg" alt="">
+								<img src="images/homepage/meals/img-8.jpg" alt="Café Net">
 							</div>
 							<div class="logo-img">
-								<img src="images/homepage/meals/logo-8.jpg" alt="">
+								<img src="images/homepage/meals/img-8.jpg" alt="">
 							</div>
 							<div class="top-text">
-								<div class="heading"><h4><a href="meal_detail.html">Double Tikki Burgur</a></h4></div>
+								<div class="heading"><h4><a href="meal_detail.html">Café Net</a></h4></div>
 								<div class="sub-heading">
-								<h5><a href="restaurant_detail.html">Rooster</a></h5>
-								<p>$5.00</p>
+									<h5><a href="restaurant_detail.html">Café</a></h5>
+									<p>Ninh Kiều</p>
 								</div>
 							</div>
 						</div>
 						<div class="bottom">
 							<div class="bottom-text">
-								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
-								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Giá: đ5.000 - đ20.000</div>
+								<div class="time"><i class="far fa-clock"></i> Mở cửa: 8h - 23h</div>
 								<div class="star">
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>
 									<i class="fas fa-star"></i>								
-									<span>4.5</span> 
-									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+									<span>4.4</span> 
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>11</a></div>
 								</div>								
 							</div>
 						</div>
 					</div>					
 				</div>
+				
 			</div>
 			<div class="meal-btn">
 				<a href="meals.html" class="m-btn btn-link">Hiển thị thêm</a>
@@ -525,11 +533,11 @@
 						<div class="ads-banner" style="background-image: url(images/homepage/offer-banners/banner-1.jpg)"></div>											
 						<div class="banner-items">
 							<div class="bnnr-text">
-							<h2>Order Food Online</h2>
-							<p>Use code to get 50% off upto $5<br> on your next order.</p>
+							<h2>Đặt Hàng Online</h2>
+							<p>Áp mã giảm đến tận 50% <br> cho đơn hàng của bạn.</p>
 							</div>
 							<div class="offer-button">
-								<a href="#" class="of-btn btn-link">Order Now</a>
+								<a href="meals.html" class="of-btn btn-link">Đặt ngay</a>
 							</div>
 						</div>
 					</div>
@@ -539,11 +547,11 @@
 						<div class="ads-banner" style="background-image: url(images/homepage/offer-banners/banner-2.jpg)"></div>											
 						<div class="banner-items">
 							<div class="bnnr-text">
-							<h2>Membership<span><i class="fas fa-long-arrow-alt-right"></i></span>Open Now</h2>
-							<p>Memberships are now open for<br> purchases.</p>
+							<h2>Membership<span><i class="fas fa-long-arrow-alt-right"></i></span>Mở đăng kí</h2>
+							<p>Nhận thông báo nhanh về các chương trình, sự kiện giảm giá<br> Đăng kí trở thành thành viên Vip để nhận nhiều ưu dãi.</p>
 							</div>
 							<div class="offer-button">
-								<a href="#" class="of-btn btn-link">Sign up Now</a>
+								<a href="add_restaurant.html" class="of-btn btn-link">Đăng kí ngay</a>
 							</div>
 						</div>
 					</div>
@@ -552,451 +560,42 @@
 		</div>
 	</section>
 	<!--offer-banners end-->	
-	<!--quick-searches start-->
-	<section class="quick-searches">			
-		<div class="container">		
-			<div class="row">	
-				<div class="col-md-12">
-					<div class="new-heading">
-						<h1> Quick Searches </h1>
-					</div>
-					<div class="sub-title">
-						Discover Restauranrs By Type of Meal
-					</div>	
-				</div>
-			</div>
-			<div class="row justify-content-center">				
-				<div class="col-lg-8 col-md-8">
-					<div class="all-meals">
-						<div class="row justify-content-center">				
-							<div class="col-lg-10 col-md-8">
-								<div class="owl-carousel searchs-owl owl-theme">
-									<div class="item">
-										<a href="#">
-											<div class="meal-icon">
-												<img src="images/homepage/quick-searches/meal-1.svg" alt="">
-											</div>
-											<div class="meal-title">
-												Breakfast
-											</div>
-										</a>
-									</div>										
-									<div class="item">
-										<a href="#">
-											<div class="meal-icon">
-												<img src="images/homepage/quick-searches/meal-2.svg" alt="">
-											</div>
-											<div class="meal-title">
-												Lunch
-											</div>
-										</a>
-									</div>										
-									<div class="item">
-										<a href="#">
-											<div class="meal-icon">
-												<img src="images/homepage/quick-searches/meal-3.svg" alt="">
-											</div>
-											<div class="meal-title">
-												Dinner
-											</div>
-										</a>
-									</div>										
-									<div class="item">
-										<a href="#">
-											<div class="meal-icon">
-												<img src="images/homepage/quick-searches/meal-4.svg" alt="">
-											</div>
-											<div class="meal-title">
-												Cafe's
-											</div>
-										</a>
-									</div>										
-									<div class="item">
-										<a href="#">
-											<div class="meal-icon">
-												<img src="images/homepage/quick-searches/meal-5.svg" alt="">
-											</div>
-											<div class="meal-title">
-												Delivery
-											</div>
-										</a>
-									</div>					
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--quick-searches end-->
-	
-	<!--featured-restaurants start-->
-	<section class="featured-restaurants">
-		<div class="container">				
-			<div class="row">									
-				<div class="col-lg-8">
-					<div class="new-heading">
-						<h1> Featured Restaurants </h1>
-					</div>
-					<div class ="bg-resto">
-						<div class="resto-item">	
-							<div class="row">	
-								<div class="col-md-4 col-sm-12">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_01.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Food Roster </a></h4>
-											<p>Indian Restaurant</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-12">															
-									<div class="resto-location">
-										<span><i class="fas fa-map-marker-alt"></i></span>New York City,1569  
-									</div>						
-								</div>	
-								<div class="col-md-4 col-sm-12">															
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>						
-								</div>
-							</div>						
-						</div>
-						<div class="resto-item">	
-							<div class="row">	
-								<div class="col-md-4 col-sm-12">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_02.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Chef House </a></h4>
-											<p>American Restaurant</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-12">															
-									<div class="resto-location">
-										<span><i class="fas fa-map-marker-alt"></i></span>New York City,1569  
-									</div>						
-								</div>	
-								<div class="col-md-4 col-sm-12">															
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>						
-								</div>
-							</div>						
-						</div>
-						<div class="resto-item">	
-							<div class="row">	
-								<div class="col-md-4 col-sm-12">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_03.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Rooster </a></h4>
-											<p>Indian Restaurant</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-12">															
-									<div class="resto-location">
-										<span><i class="fas fa-map-marker-alt"></i></span>New York City,1569  
-									</div>						
-								</div>	
-								<div class="col-md-4 col-sm-12">															
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>						
-								</div>
-							</div>						
-						</div>
-						<div class="resto-item">	
-							<div class="row">	
-								<div class="col-md-4 col-sm-12">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_04.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Limon Resto </a></h4>
-											<p>Australian Restaurant</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-12">															
-									<div class="resto-location">
-										<span><i class="fas fa-map-marker-alt"></i></span>New York City,1569  
-									</div>						
-								</div>	
-								<div class="col-md-4 col-sm-12">															
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>						
-								</div>
-							</div>						
-						</div>
-						<div class="resto-item">	
-							<div class="row">	
-								<div class="col-md-4 col-sm-12">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_05.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Ramen Bakery </a></h4>
-											<p>Canadian Bakery</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-12">															
-									<div class="resto-location">
-										<span><i class="fas fa-map-marker-alt"></i></span>New York City,1569  
-									</div>						
-								</div>	
-								<div class="col-md-4 col-sm-12">															
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>						
-								</div>
-							</div>						
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="new-heading treading-sellers">
-						<h1> Treading This Week Sellers</h1>
-					</div>
-					<div class ="bg-resto">
-						<div class="treading-item">	
-							<div class="row">	
-								<div class=" col-lg-7 col-md-6">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_06.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Steak Resto </a></h4>
-											<p>Treading</p>
-										</div>										
-									</div>
-									
-								</div>	
-								<div class="col-lg-5 col-md-6 ">
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#">View Menu</a>  
-									</div>
-								</div>
-							</div>						
-						</div>		
-						<div class="treading-item">	
-							<div class="row">	
-								<div class="col-lg-7 col-md-6">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_02.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Meshi Restaurant </a></h4>
-											<p>Treading</p>
-										</div>										
-									</div>
-									
-								</div>	
-								<div class="col-lg-5 col-md-6">
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>
-								</div>
-							</div>						
-						</div>
-						<div class="treading-item">	
-							<div class="row">	
-								<div class="col-lg-7 col-md-6">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_07.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Momo Resto </a></h4>
-											<p>Treading</p>
-										</div>										
-									</div>
-									
-								</div>	
-								<div class="col-lg-5 col-md-6">
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>
-								</div>
-							</div>						
-						</div>	
-						<div class="treading-item">	
-							<div class="row">	
-								<div class="col-lg-7 col-md-6">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_01.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Rooster </a></h4>
-											<p>Treading</p>
-										</div>										
-									</div>
-									
-								</div>	
-								<div class="col-lg-5 col-md-6">
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>
-								</div>
-							</div>						
-						</div>	
-						<div class="treading-item">	
-							<div class="row">	
-								<div class="col-lg-7 col-md-6">
-									<div class="resto-img">
-										<img src="images/homepage/featured-restaurants/logo_03.jpg" alt="">
-										<div class="resto-name">
-											<h4><a href="#"> Limon Bakery </a></h4>
-											<p>Treading</p>
-										</div>										
-									</div>
-									
-								</div>	
-								<div class="col-lg-5 col-md-6">
-									<div class="menu-btn">
-										<a class="mn-btn btn-link" href="#"> View Menu</a>  
-									</div>
-								</div>
-							</div>						
-						</div>	
-						
-					</div>
-				</div>
-				
-			</div>	
-		</div>
-		
-	</section>
-	<!--featured restaurants end-->	
-	<!--explore-your-favorite-recipes start-->
-	<section class="explore-recipes">			
-		<div class="container">		
-			<div class="row">	
-				<div class="col-md-12">
-					<div class="new-heading">
-						<h1> Explore Your Favorite Recipes </h1>
-					</div>	
-				</div>
-			</div>
-			<div class="b-recipes">
-				<div class="row">
-					<div class="col-lg-4 col-md-6">
-						<a href="#">
-						<div class="recipe-item">
-							<img src="images/homepage/recipes/recipe_01.jpg" alt="">
-							 <div class="overlay">
-								<div class="recipes-title">	
-									<h6>North Indian</h6>
-									<p>75 Videos</p>
-								 </div>
-							 </div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<a href="#">
-						<div class="recipe-item">
-							<img src="images/homepage/recipes/recipe_02.jpg" alt="">
-							 <div class="overlay">
-								<div class="recipes-title">	
-									<h6>Fast Food</h6>
-									<p>105 Videos</p>
-								 </div>
-							 </div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<a href="#">
-						<div class="recipe-item">
-							<img src="images/homepage/recipes/recipe_03.jpg" alt="">
-							 <div class="overlay">
-								<div class="recipes-title">	
-									<h6>Italian Food</h6>
-									<p>35 Videos</p>
-								 </div>
-							 </div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<a href="#">
-						<div class="recipe-item">
-							<img src="images/homepage/recipes/recipe_04.jpg" alt="">
-							 <div class="overlay">
-								<div class="recipes-title">	
-									<h6>Chinese Food</h6>
-									<p>60 Videos</p>
-								 </div>
-							 </div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<a href="#">
-						<div class="recipe-item">
-							<img src="images/homepage/recipes/recipe_05.jpg" alt="">
-							 <div class="overlay">
-								<div class="recipes-title">	
-									<h6>Street Food</h6>
-									<p>45 Videos</p>
-								 </div>
-							 </div>
-						</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<a href="#">
-						<div class="recipe-item">
-							<img src="images/homepage/recipes/recipe_06.jpg" alt="">
-							 <div class="overlay">
-								<div class="recipes-title">	
-									<h6>Bakery</h6>
-									<p>20 Videos</p>
-								 </div>
-							 </div>
-						</div>
-						</a>
-					</div>
-					
-				</div>
-			</div>
-			<div class="meal-btn">
-				<a href="#" class="m-btn btn-link">Show All</a>
-			</div>
-		</div>
-	</section>
+
+
 	<!--explore-your-favorite-recipes end-->	
 	<!--download-link start-->
 	<section class="pocket-block-preview">
-			<div class="pocket-cover-banner" style="background-image: url(images/homepage/bottom-banner.jpg)"></div>
-			<div class="container">
-				<div class="row">	
-					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-						<div class="pocket-items">
-							<div class="new-heading">
-								<h1>Natto in Your Pocket</h1>
-							</div>
-							<div class="line">
-								<img src="images/homepage/line.svg" alt="">
-							</div>
-							<p>We’ll send you a link, open it on your phone to download the app.</p>
-							<form class="search-form">
-								<input type="text" class="send-link" placeholder="Enter your email address">
-								<button type="submit" class="pocket-btn">Send Link</button>
-							</form>
-							<div class="download-btns">
-								<a href="#"><img src="images/homepage/app-store.png" alt=""></a>
-								<a href="#"><img src="images/homepage/play-store.png" alt=""></a>
-							</div>
+		<div class="pocket-cover-banner" style="background-image: url(images/homepage/bottom-banner.jpg)"></div>
+		<div class="container">
+			<div class="row">    
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+					<div class="pocket-items">
+						<div class="new-heading">
+							<h1>Trải nghiệm ứng dụng điện thoại tiện lợi mọi nơi!</h1>
 						</div>
-					</div>
-					<div class="col-lg-5 col-md-5">
-						<div class="mobile-image">
-							<img src="images/homepage/mobile.png" alt="">
+						<div class="line">
+							<img src="images/homepage/line.svg" alt="">
+						</div>
+						<p>Chúng tôi sẽ gửi cho bạn một liên kết, hãy mở nó trên điện thoại của bạn để tải ứng dụng.</p>
+						<form class="search-form">
+							<input type="text" class="send-link" placeholder="Nhập địa chỉ email của bạn">
+							<button type="submit" class="pocket-btn">Gửi liên kết</button>
+						</form>
+						<div class="download-btns">
+							<a href="#"><img src="images/homepage/app-store.png" alt=""></a>
+							<a href="#"><img src="images/homepage/play-store.png" alt=""></a>
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-5 col-md-5">
+					<div class="mobile-image">
+						<img src="images/mobile.png" alt="">
+					</div>
+				</div>
 			</div>
-		</section>
+		</div>
+	</section>
+	
 	<!--download-link end-->	
 	<!--footer start-->
 	<div id="footer-container"></div>
