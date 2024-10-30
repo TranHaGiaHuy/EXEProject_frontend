@@ -387,7 +387,12 @@ color:#847577;
     background: #fff;
 }
 .logo-box {
+   
 	padding:16px 0px;
+}
+.logo_img{
+    width: 100px;
+    height: 100px;
 }
 .menu-left {
 	text-align:left;	
@@ -853,7 +858,6 @@ padding-left: 152px;
 
 .how-to-work{
 	padding-top:50px;
-	padding-bottom:70px;
 }
 .work-item {
 	padding-top: 30px;
@@ -1020,6 +1024,19 @@ padding-left: 152px;
 .heading {
     margin-left: 100px;
 }
+.top-text .heading h4,
+.top-text .sub-heading h5 {
+    white-space: nowrap;        /* Ngăn chặn xuống dòng */
+    overflow: hidden;           /* Ẩn phần văn bản vượt quá chiều rộng */
+    text-overflow: ellipsis;    /* Thêm dấu "..." nếu văn bản quá dài */
+}
+
+.top-text .sub-heading p {
+    white-space: nowrap;        /* Ngăn chặn xuống dòng */
+    overflow: hidden;           /* Ẩn phần văn bản vượt quá chiều rộng */
+    text-overflow: ellipsis;    /* Thêm dấu "..." nếu văn bản quá dài */
+}
+
 .heading h4 {
     text-align: left;
     font-size: 18px;
