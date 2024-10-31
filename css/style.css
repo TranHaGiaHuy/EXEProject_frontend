@@ -3188,13 +3188,21 @@ padding-left: 152px;
 	padding:15px 20px;
 	color:#fff;
 }
-
+#sync1 img{
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+}
+#sync2 img{
+    width: 100px;
+    height: 100px; 
+}
 /**************************************
 			Partners Page
 **************************************/
 
 .all-partners {
-	margin-top:80px;
+	margin-top:30px;
 }
 .partner-bottom {
 	margin-bottom:80px;
@@ -3555,12 +3563,17 @@ padding-left: 152px;
 	height:50px;
 	text-align:center;
 	padding: 16px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 .show-map-result a{
 	font-size: 14px;
     color: #000;
     font-weight: 500;
+    
+}
+.popular-restaurants{
+    margin-top: 22px;
+
 }
 .popular-restaurants h4 {
     font-size: 18px;
@@ -3646,10 +3659,12 @@ padding-left: 152px;
     float: left;
 }
 .resto-picy {
-    Width: 60px;
+    Width: 70px;
 	margin-bottom: -3px;
 }
 .resto-picy img{
+    Width: 70px;
+    height: 70px;
   border:2px solid #fff;
   border-radius: 5px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
@@ -4151,6 +4166,7 @@ padding-left: 152px;
 .reply-review-1 {
     border-bottom: 1px solid #e1e1e1;
     padding: 20px;
+    padding-left: 80px;
     float: left;
     width: 100%;
 }
